@@ -8,6 +8,9 @@ body {
   --color6: #E378B0;
   background-color: var(--color4);
 }
+.grid > div {
+  box-shadow: 0px 1px 2px 0px rgba(60, 64, 67, .30), 0px 1px 3px 1px rgba(60, 64, 67, .15);
+}
 .grid {
   display: grid;
   grid-template-columns: minmax(250px, 350px) minmax(250px, 3fr) minmax(250px, 2fr) minmax(150px, 2fr);

@@ -32,8 +32,14 @@ body {
   grid-column: 2;
   grid-row: 1/3;
   display: flex;
-  align-items: center;
   background-color: var(--color1);
+  position: relative;
+}
+.eden img.vine {
+  width: 300px;
+  position: absolute;
+  bottom: -24px;
+  left: -53px;
 }
 h1 {
   font-size: 36px;

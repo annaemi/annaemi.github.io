@@ -1,5 +1,5 @@
 body {
-  font-family: 'Headland One', serif;
+  font-family: 'Noto Serif', serif;
   --color1: #378261;
   --color2: #8BC46C;
   --color3: #D6E6A1;
@@ -42,10 +42,11 @@ body {
   left: -53px;
 }
 h1 {
-  font-size: 36px;
+  font-family: 'Lobster', cursive;
+  font-weight: normal;
+  font-size: 48px;
   color: var(--color4);
   padding-left: 25px;
-  font-family: 'Headland One', serif;
 }
 .text {
   grid-column: 2 / 4;
@@ -87,12 +88,7 @@ h1 {
 }
 .a3 {
   background-color: var(--color3);
-  grid-column: 3;
-  grid-row: 1;
-}
-.a4 {
-  background-color: var(--color2);
-  grid-column: 4;
+  grid-column: 3/5;
   grid-row: 1;
 }
 .g1 {
@@ -107,12 +103,7 @@ h1 {
 }
 .g3 {
   background-color: var(--color2);
-  grid-column: 3;
-  grid-row: 6;
-}
-.g4 {
-  background-color: var(--color5);
-  grid-column: 4;
+  grid-column: 3/5;
   grid-row: 6;
 }
 .trio {
